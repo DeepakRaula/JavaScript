@@ -36,3 +36,4 @@ console.log(myUser1);       // both the value gets updated
 console.log(myUser2);       // both the value gets updated
 
 
+console.table([myUser1,myUser2])
