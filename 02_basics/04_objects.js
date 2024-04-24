@@ -63,3 +63,20 @@ console.log(Object.values(AlgoHubUser)); // returns arrays of values
 console.log(Object.entries(AlgoHubUser)); // returns arrays of entries just like itmes in dict (python)
 
 console.log(AlgoHubUser.hasOwnProperty("isLoggedIn"));
+
+
+const course = {
+    courseName : "JavaScript",
+    price : "999",
+    courseInstructor: "Techy"
+}
+
+//course.courseInstructor
+
+const {courseInstructor} = course // destructoring
+
+console.log(courseInstructor);
+
+const {courseInstructor: Instructor} = course // destructoring
+
+console.log(Instructor);
